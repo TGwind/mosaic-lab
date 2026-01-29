@@ -103,7 +103,7 @@ subtitle:
     backSpeed: 50
   source: false
   sub:
-    - "用比特拼凑世界 🧩"
+    - "用碎片拼凑世界 🧩"
     - "全栈开发者的数字实验室 🔬"
     - "Code · Create · Explore 🚀"
     - "技术探索，永无止境 ✨"
@@ -154,7 +154,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: BitMosaic Lab 创始人 · 全栈开发者
+    description: Mosaic Lab 创始人 · 全栈开发者
     button:
       enable: true
       icon: fab fa-github
@@ -162,7 +162,7 @@ aside:
       link: https://github.com/yourusername
   card_announcement:
     enable: true
-    content: 欢迎来到 BitMosaic Lab！这里是我的数字实验室，记录技术探索与创意实践。
+    content: 欢迎来到 Mosaic Lab！这里是我的数字实验室，记录技术探索与创意实践。
   card_recent_post:
     enable: true
     limit: 5

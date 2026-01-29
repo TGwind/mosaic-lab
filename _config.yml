@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: BitMosaic Lab
-subtitle: '用比特拼凑世界'
+title: Mosaic Lab
+subtitle: '用碎片拼凑世界'
 description: '全栈开发者的数字实验室，记录技术探索与生活感悟'
-keywords: 技术博客, 全栈开发, AI, BitMosaic, 个人成长
+keywords: 技术博客, 全栈开发, AI, Mosaic Lab, 个人成长
 author: Over
 language: zh-CN
 timezone: 'Asia/Shanghai'

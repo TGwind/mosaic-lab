@@ -4,41 +4,78 @@ date: 2026-01-29
 type: about
 ---
 
-## 关于 Mosaic Lab 🧩
+## Hi，我是 Alex Tian 👋
 
-**Mosaic Lab** 是我的数字实验室，名字取自 **Mosaic**（马赛克/镶嵌画）。
+24 岁，毕业于湖南科技大学，目前专注于**数字化广告营销**、**AI 智能体开发**和**算法工程**。
 
-就像马赛克艺术用无数小碎片拼凑出完整的画面一样，我相信每一行代码、每一个想法、每一次尝试，都是构建更大图景的一部分。
+Mosaic Lab 是我的数字实验室 —— 就像马赛克由无数碎片拼成完整的画面，我相信每一次技术探索和实践，都在拼凑更完整的认知。
 
-## 关于我 👨‍💻
+## 我在做什么 🔬
 
-我是 **Over**，一名全栈开发者。
+### 数字化广告营销
+- 程序化广告投放与优化
+- 广告归因分析与效果评估
+- 营销自动化与数据驱动增长
+- RTB/DSP/DMP 技术栈
 
-热爱技术，享受用代码解决问题的过程。在这里，我会分享：
+### AI 智能体开发
+- LLM 应用与 Agent 架构设计
+- RAG（检索增强生成）系统
+- 多智能体协作框架
+- AI 辅助决策系统
 
-- 🔬 **技术实验**：前端、后端、AI 等技术探索
-- 🚀 **项目实践**：独立项目的开发历程
-- 💡 **思考感悟**：对技术、产品、生活的思考
-- 📚 **学习笔记**：持续学习的记录
+### 算法工程
+- 推荐算法与个性化投放
+- CTR/CVR 预估模型
+- 用户画像与行为分析
+- A/B 测试与效果优化
 
 ## 技术栈 🛠️
 
-**前端**
-- React / Next.js / TypeScript
-- Vue.js / Tailwind CSS
+**编程语言**
+- Python / TypeScript / SQL
 
-**后端**
-- Node.js / Python
-- PostgreSQL / Redis
+**AI & 算法**
+- PyTorch / LangChain / OpenAI API
+- Scikit-learn / XGBoost / LightGBM
 
-**工具**
-- Docker / Git / AWS
+**数据工程**
+- PostgreSQL / Redis / Elasticsearch
+- Pandas / NumPy / Spark
 
-## 联系方式 📧
+**Web 开发**
+- React / Next.js / Node.js
+- FastAPI / Docker
 
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **Email**: your@email.com
-- **Twitter**: [@yourusername](https://twitter.com/yourusername)
+**广告技术**
+- Google Ads API / Meta Marketing API
+- 程序化广告 / RTB 协议
+
+## 教育背景 🎓
+
+**湖南科技大学**
+- 本科
+
+## 这个博客写什么 ✍️
+
+- 🎯 **广告技术**：数字营销策略、广告算法、增长实践
+- 🤖 **AI 实践**：智能体开发、LLM 应用、RAG 系统搭建
+- 📊 **算法笔记**：推荐系统、预估模型、数据分析
+- 💡 **技术思考**：行业趋势、技术选型、职业成长
+
+## 找到我 📬
+
+- **GitHub**: [github.com/TGwind](https://github.com/TGwind)
+- **LinkedIn**: [Alex Tian](https://www.linkedin.com/in/alex-tian-a22031348/)
+
+## 合作交流 🤝
+
+如果你对以下方面感兴趣，欢迎联系我：
+
+- 数字化广告营销合作
+- AI 智能体开发咨询
+- 算法工程技术交流
+- 任何有趣的项目
 
 ---
 

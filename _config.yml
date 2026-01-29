@@ -5,20 +5,20 @@
 # Site
 title: Mosaic Lab
 subtitle: '用碎片拼凑世界'
-description: '全栈开发者的数字实验室，记录技术探索与生活感悟'
-keywords: 技术博客, 全栈开发, AI, Mosaic Lab, 个人成长
-author: Over
+description: 'Alex Tian 的数字实验室 | 数字化广告营销 · AI智能体开发 · 算法工程'
+keywords: AI智能体, 数字营销, 算法开发, AdTech, Mosaic Lab, Alex Tian
+author: Alex Tian
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.readmind.top
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false
+  trailing_html: false
 
 # Directory
 source_dir: source

@@ -26,21 +26,24 @@ code_blocks:
 
 # 社交链接
 social:
-  fab fa-github: https://github.com/yourusername || GitHub || "#181717"
-  fas fa-envelope: mailto:your@email.com || Email || "#4a7dbe"
-  fab fa-twitter: https://twitter.com/yourusername || Twitter || "#1DA1F2"
+  fab fa-github: https://github.com/TGwind || GitHub || "#181717"
+  fab fa-linkedin: https://www.linkedin.com/in/alex-tian-a22031348/ || LinkedIn || "#0A66C2"
   fas fa-rss: /atom.xml || RSS || "#FFA500"
 
 # 图片设置
 favicon: /img/favicon.png
 
 avatar:
-  img: https://avatars.githubusercontent.com/u/1?v=4
-  effect: true
+  img: https://avatars.githubusercontent.com/TGwind
+  effect: false
+
+# 作者卡片点击头像跳转
+author:
+  link: /about/
 
 disable_top_img: false
 
-default_top_img: https://source.unsplash.com/random/1920x1080/?nature,landscape
+default_top_img: https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=1080&fit=crop
 
 index_img: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop
 
@@ -50,9 +53,9 @@ tag_img: https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1920&h=1
 
 category_img: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop
 
-footer_img: false
+footer_img: https://images.unsplash.com/photo-1462275646964-a0e3c11f18a6?w=1920&h=400&fit=crop
 
-background:
+background: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?w=1920&h=1080&fit=crop)
 
 cover:
   index_enable: true
@@ -65,6 +68,11 @@ cover:
     - https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop
     - https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop
     - https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop
+    - https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop
+    - https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=800&h=400&fit=crop
+    - https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop
+    - https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400&fit=crop
+    - https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop
 
 error_img:
   flink: /img/friend_404.gif
@@ -103,10 +111,10 @@ subtitle:
     backSpeed: 50
   source: false
   sub:
-    - "用碎片拼凑世界 🧩"
-    - "全栈开发者的数字实验室 🔬"
-    - "Code · Create · Explore 🚀"
-    - "技术探索，永无止境 ✨"
+    - "数字营销 · AI智能体 · 算法工程 🧩"
+    - "用技术驱动增长 🚀"
+    - "Code · Create · Explore 🔬"
+    - "AI 时代的数字化实践者 ✨"
 
 index_layout: 3
 
@@ -138,7 +146,7 @@ footer:
   owner:
     enable: true
     since: 2024
-  custom_text:
+  custom_text: <div style="text-align:center; padding:20px 0;"><span style="background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:bold;font-size:16px;letter-spacing:2px;">用碎片拼凑世界 · 一次一块 🧩</span></div>
   copyright: true
 
 # 侧边栏
@@ -154,15 +162,16 @@ aside:
     category: true
   card_author:
     enable: true
-    description: Mosaic Lab 创始人 · 全栈开发者
+    description: 数字营销 · AI智能体 · 算法工程
     button:
       enable: true
       icon: fab fa-github
-      text: 关注我
-      link: https://github.com/yourusername
+      text: Follow Me
+      link: https://github.com/TGwind
+    avatar_link: /about/
   card_announcement:
     enable: true
-    content: 欢迎来到 Mosaic Lab！这里是我的数字实验室，记录技术探索与创意实践。
+    content: 欢迎来到 Mosaic Lab！专注数字化广告营销、AI智能体开发与算法工程，分享技术实践与行业洞察。
   card_recent_post:
     enable: true
     limit: 5
@@ -196,6 +205,13 @@ busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
+
+# 网站统计卡片
+card_webinfo:
+  enable: true
+  post_count: true
+  last_push_date: true
+  sort_order:
 
 # 夜间模式
 darkmode:
@@ -297,4 +313,6 @@ Open_Graph_meta:
 # 自定义注入
 inject:
   head:
+    - '<style>#footer-wrap{background:linear-gradient(135deg,rgba(102,126,234,0.05) 0%,rgba(118,75,162,0.05) 100%);border-top:2px solid transparent;border-image:linear-gradient(90deg,#667eea 0%,#764ba2 50%,#667eea 100%);border-image-slice:1;}#footer-wrap::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#667eea,#764ba2,#667eea,transparent);animation:shimmer 3s infinite;}@keyframes shimmer{0%,100%{opacity:0.3;}50%{opacity:1;}}.avatar-img img,.author-info-name{cursor:pointer;}</style>'
   bottom:
+    - '<script>document.addEventListener("click",function(e){var el=e.target;if(el.closest(".avatar-img")||el.closest(".author-info-name")){window.location.href="/about/";}});</script>'
